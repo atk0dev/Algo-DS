@@ -12,7 +12,7 @@ var hash = (string, max) => {
 
     let storage = [];
     const storageLimit = 14;
-    
+
     this.print = function() {
       console.log(storage)
     }
@@ -61,13 +61,11 @@ var hash = (string, max) => {
           }
         }
       }
-    };
-  
+    }; 
   };
-  
-  
+
   console.log(hash('quincy', 10))
-  
+
   let ht = new HashTable();
   ht.add('beau', 'person');
   ht.add('fido', 'dog');
