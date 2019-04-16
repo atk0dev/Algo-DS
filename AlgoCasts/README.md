@@ -6,9 +6,9 @@ Companion repo to a course on Udemy.com
 npm install jest
 
 # run test
-jest folder/test.js --watch
+jest folder/other_folder --watch
 jest test --watch
-
+jest completed_exercises --watch 
 
 
 
